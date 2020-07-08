@@ -86,3 +86,18 @@ small{
     font-size: 14px; 
     font-weight: 400;
     }
+    footer{
+        background-color: #282531;
+        height: 300px;
+    }
+footer li{
+    list-style-type: none;
+    color: #fff;
+}
+footer li a,footer p{
+    color: #fff;
+    font-weight: 200;
+}
+footer li a:hover{
+    color: #fff;
+}
