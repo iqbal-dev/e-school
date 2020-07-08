@@ -18,7 +18,7 @@ header{
 }
 .menu a{
     padding:10px 10px;
-    margin-left: 10px;
+    margin:0 10px;
     border-radius: 20px;
     text-decoration: none;
     display: block;
@@ -51,11 +51,12 @@ header{
     background-color: #21B573;
     color: #fff;
 }
+
 .about{
-    height: 250px;
-    width: 250px;
+    height: 270px;
     border-radius: 10px;
     background-color: #F8FFFB;
+    padding-bottom: ;
     transition: all ease-in-out .4s;
 }
 .about:hover{
@@ -79,17 +80,28 @@ header{
     background-color: #fff;
 }
 .card-footer-logo{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
-small{  
-    font-size: 14px; 
-    font-weight: 400;
-    }
-    footer{
+small{
+    font-size: 10px;
+}
+.signup{
+    background-color: #F0FFF0;
+    padding: 50px 0;
+    margin: 0;
+}
+.signup .container{
+    margin-bottom: 0;
+}
+
+footer {
         background-color: #282531;
-        height: 300px;
-    }
+        height: 350px;
+}
+footer .container{
+    margin-bottom: 0;
+}
 footer li{
     list-style-type: none;
     color: #fff;
@@ -100,4 +112,47 @@ footer li a,footer p{
 }
 footer li a:hover{
     color: #fff;
+}
+
+@media only screen and (min-width: 400px){
+    
+    .about{
+        margin-bottom: 20px;
+    }
+    .menu a{
+        margin-left: 0px;
+        padding-left: 5px;
+    }
+    .menu a:hover{
+        font-size: 16px;
+        border: none;
+        background-color: #21B573;
+        color: #fff !important;
+        padding: 10px 10px;
+        border-radius: 20px;
+    }
+    .container{
+        padding: 0 10px;
+    } 
+.form{
+    margin: 0 10px;
+}
+footer .col-12{
+    text-align: center;
+}
+.banner{
+    margin: 0 10px;
+}
+.banner p{
+    text-align: center;
+}
+.banner h1{
+    text-align: center;
+}
+.banner .get-start{
+    width: 145px;
+    margin: 20px auto 40px;
+    display: block;
+}
+
 }
