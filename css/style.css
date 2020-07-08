@@ -56,7 +56,6 @@ header{
     height: 270px;
     border-radius: 10px;
     background-color: #F8FFFB;
-    padding-bottom: ;
     transition: all ease-in-out .4s;
 }
 .about:hover{
@@ -114,7 +113,7 @@ footer li a:hover{
     color: #fff;
 }
 
-@media only screen and (min-width: 400px){
+@media all and (max-width: 699px) and (min-width: 520px){
     
     .about{
         margin-bottom: 20px;
@@ -143,10 +142,7 @@ footer .col-12{
 .banner{
     margin: 0 10px;
 }
-.banner p{
-    text-align: center;
-}
-.banner h1{
+.banner p,.banner h1{
     text-align: center;
 }
 .banner .get-start{
