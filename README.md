@@ -2,26 +2,18 @@
 ![alt text](images/ICON/Logo.png)
 
 
-# Creative Agency
-A single page creative agency app where people are able to select service. And add service to their dashboard.
+# E-SCHOOL
+A single page static website, where user can buy the course, contact with the admin, signup.
 
 
-[Live Website](https://create-agency-f5381.firebaseapp.com/) 
+[Live Website](https://iqbal-dev.github.io/e-school/) 
 
 ## Features
-- Select from service the provide service section in home page
-- Sign up for the selecting service.
-- User can se the list of order from the dashboard
+- User can see all the activities of this eschool like Books, Course, Blogs
+- If user need a Course at first need to signup.
+- If user have any queries the user will contact with the admin by the sending mail from the contact section
+## Technologies:
 
-## Front-end Thechnology :
-- React.js
-- Bootstrap4
-- HTML 5
-- CSS3
-## Backend Technology:
-- Node.js
-- Express.js
-- MongoDB
-- Firebase Athuentication
-  
-  [Back-end repository](https://github.com/iqbal-dev/service-agency-server) 
+- HTML
+- CSS
+- Bootstrap
