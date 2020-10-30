@@ -1,5 +1,5 @@
 
-![alt text](src/images/logos/logo.png)
+![alt text](images/ICON/Logo.png)
 
 
 # Creative Agency
